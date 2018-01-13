@@ -1,0 +1,44 @@
+body {
+	background-color: #444;
+	width: 100%;
+	padding: 40px 80px 80px 80px;
+	box-sizing: border-box;
+}
+
+span:hover {
+	color: #fff;
+}
+
+p::first-letter {
+	text-transform: capitalize;
+	font-size: 4em;
+	font-family: 'Great Vibes', cursive;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: .8em;
+	color: #ddd;
+	text-align: center;
+	overflow-wrap: break-word;
+	text-transform: lowercase;
+	height: 70%;
+	width: 70%;
+	margin-top: 0;
+}
+
+.icon {
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 20px;
+	color: #999;
+	margin-bottom: 0;
+}
+
+/*.word_split span:hover {
+	font-weight:bold;
+}
+*/
